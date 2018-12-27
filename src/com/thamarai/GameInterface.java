@@ -1,7 +1,6 @@
 package com.thamarai;
 
 import java.util.ArrayList;
-import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -85,6 +84,12 @@ public class GameInterface {
         return setPersonnageParameters(gamerNumber, classChoice);
     }
 
+    /**
+     * Set all features of the personnage
+     * @param gamerNumber
+     * @param classChoice
+     * @return Personnage
+     */
     public Personnage setPersonnageParameters(int gamerNumber, int classChoice){
         System.out.println("Niveau du personnage ?");
         int choiceLevel = choiceNumber();
