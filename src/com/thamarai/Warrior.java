@@ -13,7 +13,7 @@ public class Warrior extends Personnage{
     @Override
     public void basicAttack(Personnage perso) {
         System.out.println("Joueur "+this.getGamerNumber()+" utilise Coup d'Epée et inflige "+this.getForce()+ " dommages");
-        System.out.println("Joueur "+perso.getGamerNumber()+" perd "+this.getForce()+ " point de vitalité");
+        System.out.println("Joueur "+perso.getGamerNumber()+" perd "+this.getForce()+ " points de vie");
         perso.setLife(perso.getLife()-this.getForce());
 
         if(perso.getLife() <= 0){
@@ -33,14 +33,14 @@ public class Warrior extends Personnage{
         int lostLifePoint = this.getForce()/2;
 
         System.out.println("Joueur "+this.getGamerNumber()+" utilise Coup de Rage et inflige "+attackCoupDeRage+ " dommages");
-        System.out.println("Joueur "+perso.getGamerNumber()+" perd "+attackCoupDeRage+ " point de vitalité");
+        System.out.println("Joueur "+perso.getGamerNumber()+" perd "+attackCoupDeRage+ " points de vie");
         perso.setLife(perso.getLife()-attackCoupDeRage);
 
         if(perso.getLife() <= 0){
             System.out.println("Joueur "+perso.getGamerNumber()+" est mort");
         }
 
-        System.out.println("Joueur "+this.getGamerNumber()+" perd "+lostLifePoint+ " point de vitalité");
+        System.out.println("Joueur "+this.getGamerNumber()+" perd "+lostLifePoint+ " points de vitalité");
         this.setLife(this.getLife()-lostLifePoint);
 
         if(this.getLife() <= 0){

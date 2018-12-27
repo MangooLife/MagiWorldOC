@@ -13,7 +13,7 @@ public class Mage extends Personnage{
     @Override
     public void basicAttack(Personnage perso) {
         System.out.println("Joueur "+this.getGamerNumber()+" utilise Boule de Feu et inflige "+this.getIntelligence()+ " dommages");
-        System.out.println("Joueur "+perso.getGamerNumber()+" perd "+this.getIntelligence()+ " point de vitalité");
+        System.out.println("Joueur "+perso.getGamerNumber()+" perd "+this.getIntelligence()+ " points de vie");
         perso.setLife(perso.getLife()-this.getIntelligence());
 
         if(perso.getLife() <= 0){
@@ -33,7 +33,7 @@ public class Mage extends Personnage{
         int winLifePoint = this.getIntelligence()*2;
 
         System.out.println("Joueur "+this.getGamerNumber()+" utilise Soin");
-        System.out.println("Joueur "+this.getGamerNumber()+" gagne "+winLifePoint+ " de vitalité");
+        System.out.println("Joueur "+this.getGamerNumber()+" gagne "+winLifePoint+ " de vie");
 
         if((this.getLife() + winLifePoint) < winLifePointDepart){
             this.setLife(this.getLife() + winLifePoint);

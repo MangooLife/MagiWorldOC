@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5159578c-2937-4865-8053-3310ce3ea93c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/com/thamarai/GameInterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagiWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MagiWorld.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MagiWorld/com/thamarai/GameInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/thamarai/GameInterface.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MagiWorld/com/thamarai/Mage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/thamarai/Mage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MagiWorld/com/thamarai/Personnage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/thamarai/Personnage.class" afterDir="false" />
@@ -14,9 +9,10 @@
       <change beforePath="$PROJECT_DIR$/out/production/MagiWorld/com/thamarai/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/thamarai/Warrior.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/thamarai/GameInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thamarai/GameInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/thamarai/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thamarai/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thamarai/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thamarai/Personnage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thamarai/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thamarai/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/thamarai/Prowler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thamarai/Prowler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/thamarai/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thamarai/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/thamarai/GameInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/thamarai/GameInterfaceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thamarai/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="120">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -39,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thamarai/GameInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="1187">
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#217#229#0" expanded="true" />
@@ -49,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/com/thamarai/GameInterfaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="244">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/thamarai/Personnage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-985">
               <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
               <folding>
                 <element signature="e#235#236#0" expanded="true" />
@@ -93,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thamarai/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="221">
+              <caret line="15" column="94" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -102,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thamarai/Prowler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="201">
+              <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -111,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thamarai/Mage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="225">
+              <caret line="15" column="101" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -138,14 +134,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/thamarai/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/thamarai/Warrior.java" />
-        <option value="$PROJECT_DIR$/src/com/thamarai/Prowler.java" />
-        <option value="$PROJECT_DIR$/src/com/thamarai/Mage.java" />
         <option value="$PROJECT_DIR$/src/com/thamarai/Personnage.java" />
         <option value="$PROJECT_DIR$/tests/GameInterfaceTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thamarai/Main.java" />
         <option value="$PROJECT_DIR$/src/com/thamarai/GameInterface.java" />
         <option value="$PROJECT_DIR$/tests/com/thamarai/GameInterfaceTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thamarai/Mage.java" />
+        <option value="$PROJECT_DIR$/src/com/thamarai/Prowler.java" />
+        <option value="$PROJECT_DIR$/src/com/thamarai/Warrior.java" />
       </list>
     </option>
   </component>
@@ -171,12 +167,28 @@
             <path>
               <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thamarai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="thamarai" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -190,7 +202,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545765289226" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545928310252" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/tests" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -208,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GameInterfaceTest">
+  <component name="RunManager" selected="JUnit.GameInterfaceTest.Given_Warrior_When_CreatePersonnageClass_Then_ReturnWarriorClass">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.thamarai.Main" />
       <module name="MagiWorld" />
@@ -273,10 +285,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GameInterfaceTest" />
-        <item itemvalue="JUnit.GameInterfaceTest.Given_Warrior_When_CreatePersonnageClass_Then_ReturnWarriorClass" />
-        <item itemvalue="JUnit.GameInterfaceTest.Given_Number_When_ChoiceNumberByLevelPoint_Then_DisplayNumber" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.GameInterfaceTest.Given_Warrior_When_CreatePersonnageClass_Then_ReturnWarriorClass" />
+        <item itemvalue="JUnit.GameInterfaceTest" />
+        <item itemvalue="JUnit.GameInterfaceTest.Given_Number_When_ChoiceNumberByLevelPoint_Then_DisplayNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -294,18 +306,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GameInterfaceTest - 2018.12.23 at 00h 38m 27s.xml">
-      <configuration name="GameInterfaceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameInterfaceTest - 2018.12.23 at 00h 41m 57s.xml">
-      <configuration name="GameInterfaceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameInterfaceTest - 2018.12.23 at 00h 46m 10s.xml">
-      <configuration name="GameInterfaceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameInterfaceTest - 2018.12.23 at 00h 53m 49s.xml">
-      <configuration name="GameInterfaceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GameInterfaceTest - 2018.12.23 at 00h 56m 55s.xml">
       <configuration name="GameInterfaceTest" configurationId="JUnit" />
     </history-entry>
@@ -324,9 +324,21 @@
     <history-entry file="GameInterfaceTest - 2018.12.24 at 21h 31m 54s.xml">
       <configuration name="GameInterfaceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GameInterfaceTest - 2018.12.27 at 17h 13m 38s.xml">
+      <configuration name="GameInterfaceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameInterfaceTest_Given_Warrior_When_CreatePersonnageClass_Then_ReturnWarriorClass - 2018.12.27 at 17h 20m 48s.xml">
+      <configuration name="GameInterfaceTest.Given_Warrior_When_CreatePersonnageClass_Then_ReturnWarriorClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameInterfaceTest_Given_Warrior_When_CreatePersonnageClass_Then_ReturnWarriorClass - 2018.12.27 at 17h 24m 55s.xml">
+      <configuration name="GameInterfaceTest.Given_Warrior_When_CreatePersonnageClass_Then_ReturnWarriorClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameInterfaceTest_Given_Warrior_When_CreatePersonnageClass_Then_ReturnWarriorClass - 2018.12.27 at 17h 25m 01s.xml">
+      <configuration name="GameInterfaceTest.Given_Warrior_When_CreatePersonnageClass_Then_ReturnWarriorClass" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="656" y="23" width="784" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -334,7 +346,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14592275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27493262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
@@ -342,7 +354,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42409638" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,38 +398,39 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/thamarai/Prowler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thamarai/Mage.java">
+    <entry file="file://$PROJECT_DIR$/out/test/MagiWorld/com/thamarai/GameInterfaceTest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thamarai/Warrior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="-45">
+          <folding>
+            <element signature="e#0#2336#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thamarai/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/thamarai/GameInterfaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thamarai/GameInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="1187">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#217#229#0" expanded="true" />
@@ -425,9 +438,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thamarai/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="101" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thamarai/Prowler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thamarai/Warrior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="94" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thamarai/Personnage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-985">
           <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
           <folding>
             <element signature="e#235#236#0" expanded="true" />
@@ -448,16 +482,6 @@
             <element signature="e#733#734#0" expanded="true" />
             <element signature="e#798#799#0" expanded="true" />
             <element signature="e#846#847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/thamarai/GameInterfaceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

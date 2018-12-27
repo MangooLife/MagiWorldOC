@@ -10,12 +10,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class GameInterfaceTest {
     private GameInterface game = new GameInterface();
 
-    /*
+
     @Test
     public void Given_Warrior_When_CreatePersonnageClass_Then_ReturnWarriorClass(){
-        Personnage warrior1 =  game.createPersonnageClass(1, 1,0,0,0,0);
+        Personnage warrior1 =  game.createPersonnageClass(1,1,0,0,0,0);
         assertEquals(warrior1, warrior1);
-    }*/
+    }
 
     @Test
     public void Given_Prowler_When_CreatePersonnageClass_Then_ReturnProwlerClass(){

@@ -13,7 +13,7 @@ public class Prowler extends Personnage{
     @Override
     public void basicAttack(Personnage perso) {
         System.out.println("Joueur "+this.getGamerNumber()+" utilise Tir à l'Arc et inflige "+this.getAgility()+ " dommages");
-        System.out.println("Joueur "+perso.getGamerNumber()+" perd "+this.getAgility()+ " point de vitalité");
+        System.out.println("Joueur "+perso.getGamerNumber()+" perd "+this.getAgility()+ " points de vie");
         perso.setLife(perso.getLife()-this.getAgility());
 
         if(perso.getLife() <= 0){

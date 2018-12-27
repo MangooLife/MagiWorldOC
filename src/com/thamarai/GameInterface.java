@@ -11,7 +11,6 @@ public class GameInterface {
      * Method to start the game
      */
     public void gameBegin(){
-
         List<Personnage> personnages = new ArrayList<Personnage>();
 
         for(int i=1; i<3; i++){
@@ -38,8 +37,12 @@ public class GameInterface {
         int choiceAttack = 0;
         System.out.println("Joueur "+personnage1.getGamerNumber()+" ("+personnage1.getLife()+" Vitalité) veuillez choisir votre action (1: Attaque Basique, 2: Attaque Spéciale)");
         do{
-            Scanner scChoiceAttack = new Scanner(System.in);
-            choiceAttack = scChoiceAttack.nextInt();
+            try {
+                Scanner scChoiceAttack = new Scanner(System.in);
+                choiceAttack = scChoiceAttack.nextInt();
+            } catch (Exception e){
+                System.out.println("Ce n'est pas une entrée acceptée. Veuillez réessayer.");
+            }
         }while(choiceAttack < 1 || choiceAttack > 2);
 
         attackChoice(personnage1, personnage2, choiceAttack);
@@ -70,11 +73,19 @@ public class GameInterface {
     public Personnage personnageClassChoice(int gamerNumber){
         int classChoice = 0;
         do{
-            System.out.println("Veuillez choisir la classe de votre personnage (1: Guerrier, 2: Rôdeur, 3: Mage)");
-            Scanner scClassChoice = new Scanner(System.in);
-            classChoice = scClassChoice.nextInt();
+            try {
+                System.out.println("Veuillez choisir la classe de votre personnage (1: Guerrier, 2: Rôdeur, 3: Mage)");
+                Scanner scClassChoice = new Scanner(System.in);
+                classChoice = scClassChoice.nextInt();
+            } catch (Exception e){
+                System.out.println("Ce n'est pas une entrée acceptée. Veuillez réessayer.");
+            }
         }while(classChoice < 1 || classChoice > 3);
 
+        return setPersonnageParameters(gamerNumber, classChoice);
+    }
+
+    public Personnage setPersonnageParameters(int gamerNumber, int classChoice){
         System.out.println("Niveau du personnage ?");
         int choiceLevel = choiceNumber();
         int levelPoints = choiceLevel;
@@ -128,12 +139,14 @@ public class GameInterface {
     public int choiceNumber(){
         int feat = 0;
         do{
-            Scanner choiceNumber = new Scanner(System.in);
-            feat = choiceNumber.nextInt();
-            if(feat < 0 || feat > 100){
+            try {
+                Scanner choiceNumber = new Scanner(System.in);
+                feat = choiceNumber.nextInt();
+            } catch (Exception e){
                 System.out.println("Vous devez saisir un nombre > 0 ou nombre < 100");
             }
-        }while(feat < 0 || feat > 100);
+        }while(feat <= 0 || feat > 100);
+
         return feat;
     }
 
@@ -145,13 +158,15 @@ public class GameInterface {
         int feat = 0;
         do{
             if(levelPoints > 0){
-                Scanner choiceNumber = new Scanner(System.in);
-                feat = choiceNumber.nextInt();
-                if (levelPoints - feat < 0) {
-                    feat = levelPoints;
+                try {
+                    Scanner choiceNumber = new Scanner(System.in);
+                    feat = choiceNumber.nextInt();
+                    if (levelPoints - feat < 0) {
+                        feat = levelPoints;
+                    }
                 }
-                if(feat < 0 || feat > 100){
-                    System.out.println("Vous devez saisir un nombre > 0 ou nombre < 100");
+                catch(Exception e){
+                    System.out.println("Vous devez saisir un nombre >= 0 ou nombre < 100");
                 }
             } else{
                 System.out.println("0");
