@@ -1,6 +1,7 @@
 package com.thamarai;
 
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -28,6 +29,11 @@ public class GameInterface {
         }while((personnages.get(0).getLife() > 1) && (personnages.get(1).getLife() > 1));
     }
 
+    /**
+     * Method where personnage1 choose his attack to fight personnage2
+     * @param personnage1
+     * @param personnage2
+     */
     public void fight(Personnage personnage1, Personnage personnage2){
         int choiceAttack = 0;
         System.out.println("Joueur "+personnage1.getGamerNumber()+" ("+personnage1.getLife()+" Vitalité) veuillez choisir votre action (1: Attaque Basique, 2: Attaque Spéciale)");
@@ -39,11 +45,16 @@ public class GameInterface {
         attackChoice(personnage1, personnage2, choiceAttack);
     }
 
+    /**
+     * Method where personnage1 attack personnage2
+     * @param personnage1
+     * @param personnage2
+     * @param choiceAttack
+     */
     public void attackChoice(Personnage personnage1, Personnage personnage2, int choiceAttack){
         switch(choiceAttack){
             case 1:
                 personnage1.basicAttack(personnage2);
-                //personnage2.presentationMessage();
                 break;
             case 2:
                 personnage1.specialAttack(personnage2);
@@ -112,28 +123,39 @@ public class GameInterface {
     }
 
     /**
-     * @return feat(int) the number choices by the gamer
+     * @return feat(int) the number of choices by the gamer
      */
     public int choiceNumber(){
         int feat = 0;
         do{
             Scanner choiceNumber = new Scanner(System.in);
             feat = choiceNumber.nextInt();
+            if(feat < 0 || feat > 100){
+                System.out.println("Vous devez saisir un nombre > 0 ou nombre < 100");
+            }
         }while(feat < 0 || feat > 100);
         return feat;
     }
 
+    /**
+     * @param levelPoints
+     * @return feat(int) the number of feat choices by the gamer
+     */
     public int choiceNumberByLevelPoint(int levelPoints){
         int feat = 0;
         do{
             if(levelPoints > 0){
                 Scanner choiceNumber = new Scanner(System.in);
                 feat = choiceNumber.nextInt();
-                if(levelPoints-feat < 0){
+                if (levelPoints - feat < 0) {
                     feat = levelPoints;
+                }
+                if(feat < 0 || feat > 100){
+                    System.out.println("Vous devez saisir un nombre > 0 ou nombre < 100");
                 }
             } else{
                 System.out.println("0");
+                feat = 0;
             }
         }while(feat < 0 || feat > 100);
 

@@ -68,7 +68,7 @@ public abstract class Personnage {
     }
 
     /**
-     * Method to attack the adversary a special attack
+     * Method to attack the adversary with a special attack
      * @param perso
      */
     public void specialAttack(Personnage perso){

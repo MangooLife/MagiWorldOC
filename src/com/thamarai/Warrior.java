@@ -6,6 +6,10 @@ public class Warrior extends Personnage{
         super(gamerNumber, level, force, agility, intelligence);
     }
 
+    /**
+     * Method to attack the adversary with a basic attack
+     * @param perso
+     */
     @Override
     public void basicAttack(Personnage perso) {
         System.out.println("Joueur "+this.getGamerNumber()+" utilise Coup d'Epée et inflige "+this.getForce()+ " dommages");
@@ -19,6 +23,10 @@ public class Warrior extends Personnage{
         super.basicAttack(perso);
     }
 
+    /**
+     * Method to attack the adversary with a special attack
+     * @param perso
+     */
     @Override
     public void specialAttack(Personnage perso) {
         int attackCoupDeRage = this.getForce()*2;
@@ -42,6 +50,9 @@ public class Warrior extends Personnage{
         super.specialAttack(perso);
     }
 
+    /**
+     * Presentation of the personnage : Warrior
+     */
     @Override
     public void presentationMessage() {
         System.out.print("Woarg je suis le Guerrier ");

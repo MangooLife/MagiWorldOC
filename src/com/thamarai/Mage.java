@@ -6,6 +6,10 @@ public class Mage extends Personnage{
         super(gamerNumber, level, force, agility, intelligence);
     }
 
+    /**
+     * Method to attack the adversary with a basic attack
+     * @param perso
+     */
     @Override
     public void basicAttack(Personnage perso) {
         System.out.println("Joueur "+this.getGamerNumber()+" utilise Boule de Feu et inflige "+this.getIntelligence()+ " dommages");
@@ -19,6 +23,10 @@ public class Mage extends Personnage{
         super.basicAttack(perso);
     }
 
+    /**
+     * Method to attack the adversary with a special attack
+     * @param perso
+     */
     @Override
     public void specialAttack(Personnage perso) {
         int winLifePointDepart = this.getLevel()*5;
@@ -36,6 +44,9 @@ public class Mage extends Personnage{
         super.specialAttack(perso);
     }
 
+    /**
+     * Presentation of the personnage : Mage
+     */
     @Override
     public void presentationMessage() {
         System.out.print("Abracadabra je suis le Magicien ");
